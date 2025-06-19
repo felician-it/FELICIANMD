@@ -47,10 +47,12 @@ DEPLOY SIMPLY RAHEEM-XMD-2
 
 ---
 
-### DEPLOY RAHEEM-XMD-2 
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Anton&size=80&pause=1000&color=FF0000&center=true&vCenter=true&width=1000&height=200&lines=DEPLOY+RAHEEM-XMD-2;HERE+ON+DEFFERENT+PLATFORM" alt="Typing SVG" />
+</a>
 
 <p align="center">
-  <a href="https://replit.com/Raheem-cm">
+  <a href="https://replit.com/Raheem-cm"
     <img src="https://img.shields.io/badge/Deploy%20To%20Replit-FFA500?style=for-the-badge&logo=replit&logoColor=white" />
   </a>
   <a href="https://railway.app/new/template?template=https://github.com/Raheem-cm/RAHEEM-XMD-2">
