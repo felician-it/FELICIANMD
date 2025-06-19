@@ -24,8 +24,15 @@ const ping = async (m, Matrix) => {
     const responseTime = (end - start) / 1000;
 
     const text = `*RAHEEM-XMD-2 SPEED: ${responseTime.toFixed(2)}MS ${reactionEmoji}*`;
-
-    await Matrix.sendMessage(m.from, {
+             
+    // Send the audio file with context info
+      await gss.sendMessage(
+        m.from,
+        {
+          audio: { url: "https://files.catbox.moe/11f9pe.mp3" },
+          mimetype: "audio/mp4",
+    
+          await Matrix.sendMessage(m.from, {
       text,
       contextInfo: {
         mentionedJid: [m.sender],
