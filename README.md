@@ -59,7 +59,7 @@ DEPLOY SIMPLY RAHEEM-XMD-2
     <img src="https://img.shields.io/badge/Deploy%20To%20Railway-8B5CF6?style=for-the-badge&logo=railway&logoColor=white" />
   </a>
   <a href="https://render.com/">
-    <img src="https://img.shields.io/badge/Deploy%20To%20Render-06B6D4?style=for-the-badge&logo=render&logoColor=white" />
+    <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🇹🇿_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=ferrari&logoColor=gold&color=black" width="260" height="50"/>
   </a>
 </p>
 
