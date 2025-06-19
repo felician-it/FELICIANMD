@@ -29,7 +29,8 @@
 ---
 DEPLOY SIMPLY RAHEEM-XMD-2 
 
-### Get Pairing Code SESSION ID
+[![TypingSVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=1000&color=FF0000&center=true&vCenter=true&width=900&height=130&lines=『+⚡get+session-id+here+👌👌⚡+』)](https://git.io/typing-svg)
+
 
 
 [![RAHEEM-XMD-2 SESSION](https://img.shields.io/badge/RAHEEM%20-XMD%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://raheem-xmd-2-pair-nzfu.onrender.com)
