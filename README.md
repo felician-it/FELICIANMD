@@ -41,7 +41,7 @@ DEPLOY SIMPLY RAHEEM-XMD-2
 
  <p align="center">
   <a href="https://github.com/Raheem-cm/RAHEEM-XMD-2">
-    <img src="https://img.shields.io/badge/Fork%20This-Repository-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/🇹🇿_FORK-MY-REPO-000000?style=for-the-badge&logo=king&logoColor=gold&color=grass" width="260" height="50"/>
   </a>
 </p>
 
