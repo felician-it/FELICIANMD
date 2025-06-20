@@ -56,7 +56,7 @@ DEPLOY SIMPLY RAHEEM-XMD-2
     <img src="https://img.shields.io/badge/Deploy%20To%20Replit-FFA500?style=for-the-badge&logo=replit&logoColor=white" />
   </a>
   <a href="https://railway.app/new/template?template=https://github.com/Raheem-cm/RAHEEM-XMD-2">
-    <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🇹🇿_DEPLOY_ON_RAILWAY-000000?style=for-the-badge&logo=train&logoColor=gold&color=black" width="260" height="50"/>
+    <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🇹🇿_DEPLOY_ON_RAILWAY-000000?style=for-the-badge&logo=benz&logoColor=gold&color=black" width="260" height="50"/>
   </a>
   <a href="https://render.com/">
     <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🇹🇿_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=ferrari&logoColor=gold&color=black" width="260" height="50"/>
