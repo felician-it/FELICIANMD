@@ -5,12 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name  Raheem-cm",
-    "stop": "pm2 stop  RAHEEM-XMD-2",
-    "restart": "pm2 restart  RAHEEM-XMD-2"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Raheem-cm",
+    "stop": "pm2 stop Raheem-cm",
+    "restart": "pm2 restart Raheem-cm",
+    "build": "echo 'No build step configured'",
+    "test": "echo '✔️ Bot runs fine — no test yet'"
   },
   "keywords": ["RAHEEM-CM", "whatsapp-bot", "whatsapp md bot"],
-  "author": " RAHEEM-XMD-2",
+  "author": "RAHEEM-XMD-2",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
