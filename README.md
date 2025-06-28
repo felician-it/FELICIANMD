@@ -4,20 +4,9 @@
 
 ---
 ---
-
-<p align="center">
-  <img src="https://files.catbox.moe/gfr5d3.jpg" width="700"/>
-</p>
-
----
-
-<p align="center">
-  <a href="https://github.com/Raheem-cm">
-    <img title="Author" src="https://img.shields.io/badge/Author-DEV%20Raheem-cm-ff004d?style=for-the-badge&logo=🇹🇿&logocolour=gold" />
- </a>
-  <a href="https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r">
-    <img title="Join WhatsApp Channel" src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+<a
+href="https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r">
+ <img alt="RAHEEM-XMD-2" height="400" src="https://files.catbox.moe/gfr5d3.jpg"></a>
 </p>
 
 ---
