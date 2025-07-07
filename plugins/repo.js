@@ -6,7 +6,7 @@ const repo = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/Raheem-cm/RAHEEM-XMD-2";
+    const githubRepoURL = "https://github.com/felician-it/FELICIANMD";
 
     try {
       // Extract username and repo name from the URL
@@ -22,21 +22,21 @@ const repo = async (m, gss) => {
       const repoData = response.data;
 
       // Format the repository information
-      const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || "No description"}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© POWERED BY RAHEEM-CM🎗️*`;
+      const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || "No description"}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© ♛꧁༒☾FELICIAN☽༒꧂♛*`;
 
       // Send an image with the formatted info as a caption
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/vgb4cw.jpg" },
+          image: { url: "https://files.catbox.moe/29pm46.jpg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363398101781980@newsletter",
-              newsletterName: "RAHEEM-XMD-2🪀",
+              newsletterJid: "120363419079746471@newsletter",
+              newsletterName: "♛꧁༒☾FELICIAN☽༒꧂♛",
               serverMessageId: 143,
             },
           },
@@ -48,7 +48,7 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          audio: { url: "https://files.catbox.moe/ykobyr.mp3" },
+          audio: { url: "https://files.catbox.moe/74q1ry.mp4" },
           mimetype: "audio/mp4",
           ptt: true,
           contextInfo: {
@@ -56,8 +56,8 @@ const repo = async (m, gss) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "120363398101781980@newsletter",
-              newsletterName: "RAHEEM-XMD-2🪀",
+              newsletterJid: "120363419079746471@newsletter",
+              newsletterName: "♛꧁༒☾FELICIAN☽༒꧂♛",
               serverMessageId: 143,
             },
           },
