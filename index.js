@@ -56,7 +56,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("KAISEN~")[1];
+    const sessdata = config.SESSION_ID.split("SKIDDY")[1];
 
     if (!sessdata || !sessdata.includes("#")) {
         console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
@@ -89,13 +89,13 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 RAHEEM-XMD-2 using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 ꧁༒☾FELICIANMD☽༒꧂ using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["RAHEEM-XMD-2", "safari", "3.3"],
+            browser: ["꧁༒☾FELICIANMD☽༒꧂", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -114,11 +114,11 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Connected Successfully RAHEEM-XMD-2♻️"));
+                    console.log(chalk.green("Connected Successfully ꧁༒☾FELICIANMD☽༒꧂♻️"));
                     Matrix.sendMessage(Matrix.user.id, { 
-                        image: { url: "https://files.catbox.moe/vgb4cw.jpg" }, 
+                        image: { url: "https://files.catbox.moe/29pm46.jpg" }, 
                         caption: `╓─────────────────╖
-│WELCOME TO RAHEEM-XMD-2 
+│WELCOME TO ꧁༒☾FELICIANMD☽༒꧂
 ╙─────────────────╜
 *⚠️ Hello there User! 🤖*
 
@@ -129,10 +129,10 @@ async function start() {
 *🪀 Your Prefix:* = *${prefix}*
 ═══════════════════
 
-💬 REPO : https://github.com/Raheem-cm/RAHEEM-XMD-2 
+💬 REPO : https://github.com/felician-it/FELICIANMD
 
 ╚══════════════════╝
-       © DEV RAHEE-CM`
+       © DEV ꧁༒☾FELICIANMD☽༒꧂`
                     });
                     initialConnection = false;
                 } else {
@@ -180,7 +180,7 @@ async function start() {
                     await Matrix.readMessages([mek.key]);
                     
                     if (config.AUTO_STATUS_REPLY) {
-                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By RAHEEM-XMD-2';
+                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen by ꧁༒☾FELICIANMD☽༒꧂';
                         await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
                     }
                 }
