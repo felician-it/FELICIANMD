@@ -1,20 +1,24 @@
-import config from '../config.cjs';
+const { cmd } = require("../command");  
+const { sleep } = require("../lib/functions");  
 
-const restartBot = async (m) => {
-  const prefix = config.PREFIX;
-const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
-const text = m.body.slice(prefix.length + cmd.length).trim();
+cmd({  
+    pattern: "restart",  
+    desc: "Restart ꧁༒☾FELICIANMD☽༒꧂",  
+    category: "owner",  
+    filename: __filename  
+},  
+async (conn, mek, m, { reply, isCreator }) => {  
+    try {  
+        if (!isCreator) {  
+            return reply("Only the bot owner can use this command.");  
+        }  
 
-  if (cmd === 'restart') {
-    try {
-      m.reply('PROSES....')
-     await process.exit()
-    } catch (error) {
-      console.error(error);
-      await m.React("❌");
-      return m.reply(`An error occurred while restarting the bot: ${error.message}`);
-    }
-  }
-};
-
-export default restartBot;
+        const { exec } = require("child_process");  
+        reply("꧁༒☾FELICIANMD☽༒꧂ RESTARTING...");  
+        await sleep(1500);  
+        exec("pm2 restart all");  
+    } catch (e) {  
+        console.error(e);  
+        reply(`${e}`);  
+    }  
+});
