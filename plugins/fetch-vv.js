@@ -28,8 +28,8 @@ const OwnerCmd = async (m, Matrix) => {
   // Secret Mode = Emoji Reply or Reaction (For Bot/Owner Only) on View Once media
   const secretMode = (isEmojiReply || reactedToViewOnce) && isAuthorized;
 
-  // Allow only `.vv`, `.vv2`, `.vv3`
-  if (cmd && !['vv', 'vv2', 'vv3'].includes(cmd)) return;
+  // Allow only `.vv`, `.vv2`, `.any emoji`
+  if (cmd && !['vv', 'vv2', 'any emoji'].includes(cmd)) return;
   
   // Restrict VV commands properly
   if (cmd && !isAuthorized) return m.reply('*Only the owner or bot can use this command!*');
@@ -56,7 +56,7 @@ const OwnerCmd = async (m, Matrix) => {
     if (!buffer) return;
 
     let mimetype = msg.audioMessage?.mimetype || 'audio/ogg';
-    let caption = `> *© Powered By Dev Raheem-cm*`;
+    let caption = `> *© Powered By Dev ♛꧁༒☾FELICIAN☽༒꧂♛*`;
 
     // Set recipient
     let recipient = secretMode || cmd === 'vv2' 
@@ -75,7 +75,7 @@ const OwnerCmd = async (m, Matrix) => {
 
     // Silent execution for secret mode
     if (!cmd) return;
-    m.reply('*Media sent successfully!*');
+    m.reply('*👌*');
 
   } catch (error) {
     console.error(error);
