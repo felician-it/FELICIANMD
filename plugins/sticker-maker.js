@@ -57,7 +57,7 @@ cmd(
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
         if (!mek.quoted) return reply(`*Reply to any Image or Video, Sir.*`);
         let mime = mek.quoted.mtype;
-        let pack = Config.STICKER_NAME || "༺𒋲⃟🀧𝐒𝐄𝐑𝐆𝐈𝐎 𝐌𝐀𝐑𝐐𝐔𝐈𝐍𝐀🀈⃟𒋲🩸᪳";
+        let pack = Config.STICKER_NAME || "CRISS VEVO";
         
         if (mime === "imageMessage" || mime === "stickerMessage") {
             let media = await mek.quoted.download();
@@ -77,4 +77,4 @@ cmd(
     }
 );
 
-// JawadTechX
+// Criss Vevo

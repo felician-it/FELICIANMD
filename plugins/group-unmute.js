@@ -3,10 +3,10 @@ const { cmd, commands } = require('../command')
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
 
 cmd({
-    pattern: "open",
-    alias: ["group-open"],
+    pattern: "unmute",
+    alias: ["groupunmute"],
     react: "🔊",
-    desc: "*OUVERT THE GROUP (EVERYONE CAN SEND MESSAGES).*",
+    desc: "Unmute the group (Everyone can send messages).",
     category: "group",
     filename: __filename
 },           
@@ -17,7 +17,7 @@ async (conn, mek, m, { from, isGroup, senderNumber, isAdmins, isBotAdmins, reply
         if (!isBotAdmins) return reply("❌ I need to be an admin to unmute the group.");
 
         await conn.groupSettingUpdate(from, "not_announcement");
-        reply("*✅ GROUP HAS BEEN OUVERT.* *EVERYONE CAN SEND MESSAGES.*");
+        reply("✅ Group has been unmuted. Everyone can send messages.");
     } catch (e) {
         console.error("Error unmuting group:", e);
         reply("❌ Failed to unmute the group. Please try again.");

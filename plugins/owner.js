@@ -3,7 +3,7 @@ const config = require('../config');
 
 cmd({
     pattern: "owner",
-    react: "🪀", 
+    react: "✅", 
     desc: "Get owner number",
     category: "main",
     filename: __filename
@@ -29,23 +29,23 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: ' https://files.catbox.moe/6xah6z.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *RAHEEM-XMD-2* 〕━━┈⊷
+            image: { url: 'https://files.catbox.moe/78ywr9.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *- ♛꧁༒☾FELICIAN☽༒꧂♛ ✪ALIVE✪ ⚡NOW⚡-* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
-┃◈┃• *Name* : *${config.OWNER_NAME}*
+┃◈┃• *Name* - ${ownerName}
 ┃◈┃• *Number* ${ownerNumber}
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM CM*`, // Display the owner's details
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ - ♛꧁༒☾FELICIAN☽༒꧂♛ ✪ALIVE✪ ⚡NOW⚡-`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363398101781980@newsletter',
-                    newsletterName: 'RAHEEM-XMD-2🪀',
+                    newsletterJid: '120363419079746471@newsletter',
+                    newsletterName: '- ♛꧁༒☾FELICIAN☽༒꧂♛ ✪ALIVE✪ ⚡NOW⚡-',
                     serverMessageId: 143
                 }            
             }
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/t7ul1u.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/txkiyp.mp4' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
