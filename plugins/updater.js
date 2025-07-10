@@ -41,7 +41,7 @@ const update = async (m, Matrix) => {
 
             // Fetch latest commit hash
             const { data: commitData } = await axios.get(
-                "https://api.github.com/repos/fel255/skiddxdm/commits/main"
+                "https://github.com/felician-it/FELICIANMD/commits/main"
             );
             const latestCommitHash = commitData.sha;
 
@@ -63,7 +63,7 @@ const update = async (m, Matrix) => {
             
             const response = await axios({
                 method: 'get',
-                url: "https://github.com/fel255/skiddxdm/archive/main.zip",
+                url: "https://github.com/felician-it/FELICIANMD/archive/main.zip",
                 responseType: 'stream'
             });
 
